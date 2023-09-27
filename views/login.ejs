@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Caspian State University</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body class="login-body">
+
+    <div class="border">
+
+      <div class="border-text">
+        <a href="https://cu.edu.kz">Caspian State University</a>
+        <p>Student Information System</p>
+      </div>
+
+      <form class="form-signin" action="/" method="post">
+        <label for="">Student number</label>
+        <input type="text" name="number" class="form-control" required autocomplete="off" autofocus>
+        <label for="">Password</label>
+        <input type="password" name="password" id="pass" class="form-control" required autocomplete="off">
+        <p style="color:red; font-size:13px; font-family: Arial, Helvetica, sans-serif; margin-bottom: 0"><%= message %></p>
+        <button type="submit" name="button" class="btn btn-warning">Login</button>
+      </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer") -%>
